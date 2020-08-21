@@ -12,7 +12,8 @@ studentLee.studentName = "Lee";
 studentLee.showStudentInfo();
 ```
 
-### public 키워드가 있는 클래스는 작업 파일과 이름이 동일해야한다.
+### 자바 파일 하나에 여러 개의 클래스가 존재 할 수도 있음.
+단, public 키워드가 있는 클래스는 작업 파일과 이름이 동일해야한다.
 
 Student.java
 ```
