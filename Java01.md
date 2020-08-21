@@ -1,18 +1,18 @@
 ## 클래스 
 
-### 클래스 생성하기
+- 클래스 생성하기
 ```
 new 키워드를 사용하여 생성자로 생성
 Student studentLee = new Student();
 ```
-### 클래스의 속성, 메서드 참조하기
+- 클래스의 속성, 메서드 참조하기
 ```
 생성에 사용한 변수(참조변수)로 클래스의 속성, 메소드 참조
 studentLee.studentName = "Lee";
 studentLee.showStudentInfo();
 ```
 
-### 자바 파일 하나에 여러 개의 클래스가 존재 할 수도 있음.
+- 자바 파일 하나에 여러 개의 클래스가 존재 할 수도 있음.
  단, public 키워드가 있는 클래스는 작업 파일과 이름이 동일해야한다.
 
 Student.java
