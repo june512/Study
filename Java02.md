@@ -8,6 +8,7 @@
 Student studentLee = new Student();
 System.out.println(studentLee); //참조변수를 출력
 ```
+## 용어정리 
 |용어|설명|
 |------|---|
 |객체|객체 지향 프로그램의 대상, 생성된 인스턴스|
