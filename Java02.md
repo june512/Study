@@ -98,3 +98,13 @@ public class StudentTest {
 }
 
 ```
+
+## 접근 제어자(Access Modifier)
+- 변수, 메서드, 생성자에 대한 접근 권한 지정
+- public private, protected, 아무것도 안쓰는 경우 -> 기본 접근 제어자
+- private를 사용하면 클래스 외부에서는 접근 할 수가 없다.
+
+## 정보 은닉(Information hiding)
+- 외부에서 클래스 내부의 정보에 접근하지 못하도록 한다. -> private키워드를 활용
+- private 변수를 외부에서 접근하게 하려면 public 메서드 제공한다. 
+- 클래스 내부 데이터를 잘못 사용하는 오류를 방지 할 수 있다.
