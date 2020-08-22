@@ -108,3 +108,27 @@ public class StudentTest {
 - 외부에서 클래스 내부의 정보에 접근하지 못하도록 한다. -> private키워드를 활용
 - private 변수를 외부에서 접근하게 하려면 public 메서드 제공한다. 
 - 클래스 내부 데이터를 잘못 사용하는 오류를 방지 할 수 있다.
+
+
+## tip
+마우스 오른쪽 -> Source -> Generate Geters and Setters...
+
+
+## this의 역할
+ - 자신의 메모리를 가리킨다.
+ - 생성자에서 다른 생성자를 호출 한다.
+ - 인스턴스 자신의 주소를 반환한다.
+ 
+ ### 생성자에서 다른 생성자를 호출
+ ```
+ public Person() {
+ 
+ 	this("____",1);
+}
+
+public Person(String name, int age) {
+
+	this.name = name;
+	this.age = age;
+}
+ ```
