@@ -132,3 +132,48 @@ public Person(String name, int age) {
 	this.age = age;
 }
  ```
+```
+package thisex;
+
+public class Person {
+
+	String name;
+	int age;
+	
+	public Person() {
+		this("이름없음",1);
+	}
+	
+	public Person(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+	
+	public void showInfo() {
+		System.out.println(name + ", " + age);
+	}
+	
+	public Person getSelf() {
+		return this;
+	}
+}
+```
+```
+package thisex;
+
+public class PersonTest {
+
+	public static void main(String[] args) {
+		Person person = new Person();
+		person.showInfo();
+		
+		Person personLee = new Person("Lee", 29);
+		personLee.showInfo();
+		System.out.println(personLee);
+		
+		Person p = personLee.getSelf();
+		System.out.println(p);
+	}
+}
+
+```
