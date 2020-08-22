@@ -22,4 +22,79 @@
 	}
   ```
   
-  
+  ## 참조자료형
+  ```
+  package reference;
+
+public class Student {
+
+	int studentID;
+	String studentName;
+	
+	Subject korea;
+	Subject math;
+	Subject eng;
+	
+	public Student(int id, String name) {
+		studentID = id;
+		studentName = name;
+		
+		korea = new Subject();
+		math = new Subject();
+		eng = new Subject();
+	}
+	
+	public void setKoreaSubject(String name, int score) {
+		korea.subjectName = name;
+		korea.socore = score;
+	}
+	
+	public void setMathSubject(String name, int score) {
+		math.subjectName = name;
+		math.socore = score;
+	}
+	
+	public void setEnglishSubject(String name, int score) {
+		eng.subjectName = name;
+		eng.socore = score;
+	}
+	
+	public void showStudentScore() {
+		int total = korea.socore + math.socore + eng.socore;
+		System.out.println(studentName + "학생의  점수는 " + total);
+	}
+}
+```
+```
+package reference;
+
+public class Subject {
+
+	int socore;
+	String subjectName;
+}
+```
+```
+package reference;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+
+		Student studentLee = new Student(100, "Lee");
+		studentLee.setKoreaSubject("국어", 100);
+		studentLee.setMathSubject("수학", 90);
+		studentLee.setEnglishSubject("영어", 60);
+		
+		Student studentKim = new Student(101, "Kim");
+		studentKim.setKoreaSubject("국어", 80);
+		studentKim.setMathSubject("수학", 80);
+		studentKim.setEnglishSubject("영어", 80);
+		
+		studentLee.showStudentScore();
+		studentKim.showStudentScore();
+	}
+
+}
+
+```
