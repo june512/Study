@@ -41,3 +41,51 @@ class B extends A {
 ## 다형성(Ploymorphism)
 - 하나의 코드가 여러 자료형으로 구현되어 실행되는 것이며, 캍은 코드에서 여러 실행 결과가 나온다.
 - 정보은닉, 상속과 더불어 객체지향 프로그래밍의 가장 큰 특징 중 하나이며, 객체지향 프로그래밍의 유연성, 재활용성, 유지보수성에 기본이 되는 특징.
+
+```
+package ploymorphism;
+
+class Animal{
+	public void move() {
+		System.out.println("동물이 움직입니다.");
+	}
+}
+
+class Human extends Animal {
+	public void move() {
+		System.out.println("사람이 두발로 걷습니다.");
+	}
+}
+
+class Tiger extends Animal{
+	public void move() {
+		System.out.println("호랑이가 네 발로 뜁니다.");
+	}
+}
+
+class Eagle extends Animal{
+	public void move() {
+		System.out.println("독수리가 하늘을 날아갑니다.");
+	}
+}
+
+public class AnimalTest {
+
+	public static void main(String[] args) {
+
+		Animal hAnimal = new Human();
+		Animal tAnimal = new Tiger();
+		Animal eAnimal = new Eagle();
+		
+		AnimalTest test = new AnimalTest();
+		test.moveAnimal(hAnimal);
+		test.moveAnimal(tAnimal);
+		test.moveAnimal(eAnimal);
+	}
+	
+	public void moveAnimal(Animal animal) {
+		animal.move();
+	}
+
+}
+```
