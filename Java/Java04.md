@@ -34,3 +34,6 @@ class B extends A {
 |protected|X|O|O|O|
 |default|X|X|O|O|
 |private|X|X|X|O|
+
+## 오버라이딩(Overrideing)
+- 상위 클래스에 정의된 메서드의 구현 내용이 하위 클래스에서 구현할 내용과 맞지 않는 경우 하위 클래스에서 동일한 이름의 메서드를 재정의 할 수 있다.
