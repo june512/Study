@@ -6,6 +6,13 @@
  VIPCustomer vCustomer = (VIPCustomer)vc; //명시적
  ```
  
+## instanceof
+- instanceof는 연산자입니다.
+- 참조 변수가 instanceof로 형 변환 가능한 타입인지 연산합니다.
+- 형 변환이 가능하다면 true로 반환합니다.
+- 가능하지 못한다면 false로 반환합니다.
+
+
  ### 예제
  ```
  package ploymorphism;
