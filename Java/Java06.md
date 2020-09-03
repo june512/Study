@@ -33,3 +33,14 @@
  - 하위 클래스가 다른 구현을 했다고 해서 템플릿 메서드에 정의된 시나리오 대로 수행된다.
  
  ![템플릿 메서드 구현하기 예제](https://user-images.githubusercontent.com/65329769/91938491-0f0d5800-ed2f-11ea-96c0-f4e734f58ecc.jpg)
+
+
+## final 예약어
+- final 변수는 값이 변경될 수 없는 상수이다.
+```
+public static final double PI = 3.14;
+````
+- 오직 한 번만 값을 할 당할 수 있다.
+
+- final 메서드는 하위 클래스에서 재정의 (overriding) 할 수 없다.
+- final 클래스는 더 이상 상속되지 않는다. ex) java의 String 클래스
