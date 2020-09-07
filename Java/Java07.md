@@ -3,7 +3,7 @@
 ![인터페이스 선언과 구현](https://user-images.githubusercontent.com/65329769/92186481-ddf96880-ee91-11ea-8769-fa1755e3df14.JPG)
 
 ### 타입 상속과 형 변환
-![타입 상속과 형 변환](https://user-images.githubusercontent.com/65329769/92192032-19029880-eea0-11ea-9331-56c637093fda.JPG)
+![타입 상속과 형 변환](https://user-images.githubusercontent.com/65329769/92353726-ebc21e80-f11b-11ea-8a95-b4ce376d20c2.JPG)
 
 ## 인터페이스(Interface)의 역할
  - 인터페이스는 클라이언트 프로그램에 어떤 메소드를 제공하는지 알려주는 명세 또는 약속이다.
