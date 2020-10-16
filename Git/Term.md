@@ -23,9 +23,8 @@ git reset은 remote repository까지 컨트롤할 수 없습니다.
 ```
 
 <br>
-___
 
-<br>
+
 - ### synchronize
 - ### cherry-pick 
   - rebase를(참조) 통하여 다른 브랜치의 전체 commit 내역을 복사해오지 않고 특정 commit 내역만을 가져오고 싶을 경우 cherry-pick을 사용한다
