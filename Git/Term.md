@@ -6,9 +6,15 @@
 - ### checkout
 - ### rebase
 - ### reset
+```
+git reset을 명령어는 특정 커밋으로 되돌아갈 수 있는데, 되돌린 버전 이후의 버전들은 히스토리에서 삭제됩니다.
+```
   - keep(--mixed)
   - delete(--hard)
 - ### revert
+```
+git revert는 reset처럼 특정 버전으로 되돌아갈 수 있지만, 되돌린 버전 이후의 버전들의 이력은 남아있다는 점에서 차이가 있습니다.
+```
 
 - ### reset과 revert차이
 ```
