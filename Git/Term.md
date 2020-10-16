@@ -2,10 +2,10 @@
 ### - pull
 ### - push
 ### - fetch
-### - Branch
-### - checkout
-### - rebase
-### - reset
+### - ### Branch
+### - ### checkout
+### - ### rebase
+- ### reset
   - keep(--mixed)
   - delete(--hard)
-### - revert
+- ### revert
