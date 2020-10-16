@@ -24,6 +24,7 @@ git reset은 remote repository까지 컨트롤할 수 없습니다.
 
 <br>
 ___
+
 <br>
 - ### synchronize
 - ### cherry-pick 
